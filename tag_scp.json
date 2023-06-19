@@ -11,12 +11,6 @@
       "Condition": {
         "Null": {
           "aws:RequestTag/CostCenter": "true"
-        },
-        "ForAnyValue:StringEquals": {
-          "aws:ResourceTag/CostCenter": [
-            "100",
-            "200"
-          ]
         }
       }
     }
